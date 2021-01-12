@@ -1,15 +1,18 @@
-import React from 'react'
-import  foto  from "./img/micro.jpg";
+import React,{useState} from 'react'
+import  fotoI  from "./img/micro.jpg";
 
 
-const Background = (props) => {
+const Background = ({texto, foto, fotoB, textoB}) => {
+
+
+
     return (
         <div className="box">
 
                 <div className="boxImage">
 
 
-                <img className="image" src={props.foto || foto}></img>
+                <img className="image" src={foto || fotoI}></img>
 
                 </div>
 
@@ -19,8 +22,12 @@ const Background = (props) => {
                         
                     </div>
 
-        {props.children}
+
     </div>
+
+
+
+
     )
 }
 
