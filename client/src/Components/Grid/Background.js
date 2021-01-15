@@ -1,29 +1,19 @@
 import React,{useState} from 'react'
 import  fotoI  from "./img/micro.jpg";
+import "./style.css"
 
-
-const Background = ({texto, foto, fotoB, textoB}) => {
+const Background = ({foto}) => {
 
 
 
     return (
-        <div className="box">
-
-                <div className="boxImage">
+        <div className="box ">
 
 
-                <img className="image" src={foto || fotoI}></img>
-
-                </div>
-
-                    <div className="boxText">
-                    <h1>why microgreens</h1>
-                    <p>because theyre healthy</p>
-                        
-                    </div>
+                <h1>Welcome</h1>
 
 
-    </div>
+        </div>
 
 
 

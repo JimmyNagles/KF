@@ -1,20 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
-import  Background  from "./Components/Grid/Homevid";
-import  Homevid  from "./Components/Grid/Homevid";
-import SlideA from './Components/Slides/SlideA';
-import SlideB from './Components/Slides/SlideB';
+import NavBar from './Components/Nav/MyNavBar';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Home from "./pages/home";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+
 
 function App() {
   return (
-    <>
-
-  <Homevid><h1>Welcome</h1></Homevid>
-  <br></br>
-  <SlideA></SlideA>
-  <SlideB></SlideB>
+    <Router>
+    <div>
+      <NavBar />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/Contact" component={Contact} />
   
-    </>
+      </Switch>
+    </div>
+  </Router>
   );
 }
 

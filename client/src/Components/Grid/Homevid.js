@@ -4,11 +4,7 @@ import Vwhite from "./Video/microBackgroundvideo.mp4";
 
 const Homevid = (props) => {
     return (
-        <div style={{display:"flex",
-        flexDirection:"column",
-        width:"100vh",
-        height:"100vh",
-        justifyContent:"center",alignItems:"center" }} >
+        <div >
 
 
 <video
