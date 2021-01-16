@@ -19,6 +19,6 @@ app.use(routes);
  mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/messages");
 
 // Start the API server
-app.listen(process.env.PORT||3000, function () {
+app.listen(PORT, function () {
   console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
 });
