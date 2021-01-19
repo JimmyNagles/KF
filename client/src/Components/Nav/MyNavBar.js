@@ -32,11 +32,11 @@ className="glass"
 
 
 
-  <NavItem href="/About" className="telefono grey-text darken-4" >About</NavItem>
-  <NavItem className=" grey-text darken-4" href="/Contact"> Contact</NavItem>
-  <NavItem className=" grey-text darken-4"  href="/Inventory">What We Grow</NavItem>
-  <NavItem className=" grey-text darken-4 "href="/How">  How We Grow</NavItem>
-  <NavItem className=" grey-text darken-4 "  >
+  <NavItem href="/About" className="telefono black-text" >About</NavItem>
+  <NavItem className=" black-text" href="/Contact"> Contact</NavItem>
+  <NavItem className=" black-text"  href="/Inventory">Inventory</NavItem>
+  <NavItem className=" black-text "href="/">Home</NavItem>
+  <NavItem className=" black-text "  >
   <i class="material-icons ">add_shopping_cart</i>
   </NavItem>
 </Navbar>

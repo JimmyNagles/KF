@@ -9,7 +9,6 @@ const home = () => {
         <div>
    <Homevid>   
 
-       <h3 className="center  white-text  ">Super Foods</h3>
           </Homevid>
 
       

@@ -26,7 +26,7 @@ const Homevid = (props) => {
           transform: "translate(-50%,-50%)",
           zIndex: "-1",
         }}
-      >
+      > 
         <source src={FastV}></source>
       </video>
       

@@ -18,6 +18,32 @@
   backdrop-filter: blur(5px);
 }
 
+#myboton:hover {
+  box-shadow: 20px 20px 50px rgb(0, 0, 0, 0.5);
+  border-radius: 20px;
+  background: rgba(18, 114, 23, 0.582);
+
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+}
+
+/* label underline focus color */
+.input-field input[type="text"]:focus {
+  border-bottom: 2px solid green !important;
+  box-shadow: 0 1px 0 0 #000;
+}
+/* valid color */
+.input-field input[type="text"].valid {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+/* invalid color */
+.input-field input[type="text"].invalid {
+  border-bottom: 2px solid red !important;
+  box-shadow: 0 1px 0 0 #000;
+}
+
 /* About Page */
 
 /* About Page */
