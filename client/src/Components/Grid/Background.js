@@ -2,15 +2,15 @@ import React,{useState} from 'react'
 import  fotoI  from "./img/micro.jpg";
 import "./style.css"
 
-const Background = ({foto}) => {
+const Background = ({children}) => {
 
 
 
     return (
-        <div className="box ">
+        <div className="box black white-text">
 
 
-                <h1>Welcome</h1>
+               {children}
 
 
         </div>

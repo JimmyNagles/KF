@@ -11,7 +11,7 @@ const MyNavBar = () => {
 
 className="black"
   alignLinks="right"
-  brand={<img style={{marginTop:"30px"}} width="100px"  height="100px" src={logo} className="brand-logo " ></img>}
+  brand={<a href="/"><img style={{marginTop:"30px"}} width="100px"  height="100px" src={logo} ></img></a>}
   centerLogo
   id="mobile-nav"
   menuIcon={<Icon className="white-text">menu</Icon>}
@@ -31,19 +31,11 @@ className="black"
 
 
 
-  <NavItem className="telefono white-text" href="">
-   Contact
-  </NavItem>
-  <NavItem className="telefono white-text" href="components.html">
-    About
-  </NavItem>
-  <NavItem className="telefono white-text" href="components.html">
-    What We Grow
-  </NavItem>
-  <NavItem className="telefono white-text " href="components.html">
-    How We Grow
-  </NavItem>
-  <NavItem className="telefono white-text " href="components.html">
+  <NavItem href="/About" className="telefono grey-text darken-4" >About</NavItem>
+  <NavItem className=" grey-text darken-4" href="/Contact"> Contact</NavItem>
+  <NavItem className=" grey-text darken-4"  href="/Inventory">What We Grow</NavItem>
+  <NavItem className=" grey-text darken-4 "href="/How">  How We Grow</NavItem>
+  <NavItem className=" grey-text darken-4 "  >
   <i class="material-icons ">add_shopping_cart</i>
   </NavItem>
 </Navbar>

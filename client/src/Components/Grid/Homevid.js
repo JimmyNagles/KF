@@ -1,30 +1,29 @@
 import React from 'react'
 import "./style.css"
-import Vwhite from "./Video/microBackgroundvideo.mp4";
+
+import ImageKF from "./img/KFimg.jpg"
 
 const Homevid = (props) => {
     return (
-        <div >
+        <div style={{height:"100vh"}}  >
 
 
-<video
+<img src={ImageKF}
         width="100%"
         height="100%"
-        autoPlay
-        muted
-        loop
-        style={{
-          position: "absolute",
-          left: "50%",
-          top: "50%",
-          objectFit: "cover",
-          transform: "translate(-50%,-50%)",
-          zIndex: "-1",
-        }}
-      >
-        <source src={Vwhite}></source>
-      </video>
-            {props.children}
+    
+      />
+      
+
+<div>
+{props.children}
+
+</div>
+
+          
+
+
+
         </div>
     )
 }
