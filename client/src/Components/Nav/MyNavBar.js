@@ -6,7 +6,7 @@ const MyNavBar = () => {
 <div>
 
 
-<Navbar
+<Navbar 
 
 
 className="glass"
@@ -16,6 +16,7 @@ className="glass"
   id="mobile-nav"
   menuIcon={<Icon className="black-text">menu</Icon>}
   options={{
+    
     draggable: true,
     edge: 'left',
     inDuration: 250,
