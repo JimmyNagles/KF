@@ -11,6 +11,7 @@ const Homevid = (props) => {
 <img src={ImageKF}
         width="100%"
         height="100%"
+        
     
       />
       

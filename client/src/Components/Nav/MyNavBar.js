@@ -9,12 +9,12 @@ const MyNavBar = () => {
 <Navbar
 
 
-className="black"
+className="glass"
   alignLinks="right"
   brand={<a href="/"><img style={{marginTop:"30px"}} width="100px"  height="100px" src={logo} ></img></a>}
   centerLogo
   id="mobile-nav"
-  menuIcon={<Icon className="white-text">menu</Icon>}
+  menuIcon={<Icon className="black-text">menu</Icon>}
   options={{
     draggable: true,
     edge: 'left',
