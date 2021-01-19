@@ -1,9 +1,36 @@
 import React from 'react'
+import { Card, Col, Container, Row } from 'react-materialize'
 
 const About = () => {
     return (
-        <div className="box ">
-            <h1>About PAge</h1>
+        <div className="box" >
+          <Container>
+
+       
+        
+<Row>
+
+    <Col s={12} m={12} l={4}>
+    <Card>
+<p>Juan</p>
+        
+    </Card>
+    </Col>
+
+
+    <Col s={12} m={12} l={4}>
+    <Card>
+    <p>Lucy</p>
+    </Card>
+    </Col>
+    <Col s={12} m={12} l={4}>
+    <Card>
+    <p>JImmy </p>
+    </Card>
+    </Col>
+</Row>
+          
+          </Container>
         </div>
     )
 }
