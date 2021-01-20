@@ -34,7 +34,7 @@ const ContactForm = () => {
 
 <TextInput s={12} m={12} l={12} 
   id="Textarea-12"
-  label="Brief message if possible..."
+  label="Brief message..."
   
   icon={<Icon>chat</Icon>}
 />
