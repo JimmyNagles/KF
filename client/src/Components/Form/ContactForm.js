@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Col, Container, Row, TextInput,Icon } from 'react-materialize'
+import { Button, Col, Container, Row, TextInput,Icon,Textarea } from 'react-materialize'
 
 const ContactForm = () => {
     return (
@@ -30,6 +30,14 @@ const ContactForm = () => {
              validate
              icon="email"
               />    
+
+
+<TextInput s={12} m={12} l={12} 
+  id="Textarea-12"
+  label="Brief message if possible..."
+  
+  icon={<Icon>chat</Icon>}
+/>
 </Container>
 
  </Col>

@@ -32,12 +32,12 @@ className="glass"
 
 
 
+  <NavItem className=" black-text "href="/">Home</NavItem>
   <NavItem href="/About" className="telefono black-text" >About</NavItem>
   <NavItem className=" black-text" href="/Contact"> Contact</NavItem>
   <NavItem className=" black-text"  href="/Inventory">Inventory</NavItem>
-  <NavItem className=" black-text "href="/">Home</NavItem>
   <NavItem className=" black-text "  >
-  <i class="material-icons ">add_shopping_cart</i>
+  <i className="material-icons ">add_shopping_cart</i>
   </NavItem>
 </Navbar>
 

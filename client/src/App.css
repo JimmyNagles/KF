@@ -27,21 +27,73 @@
   border-left: 1px solid rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(5px);
 }
-
 /* label underline focus color */
 .input-field input[type="text"]:focus {
-  border-bottom: 2px solid green !important;
-  box-shadow: 0 1px 0 0 #000;
+  border-bottom: 1px solid green !important;
+  box-shadow: 0 1px 0 0 green;
 }
 /* valid color */
 .input-field input[type="text"].valid {
-  border-bottom: 1px solid #000;
+  border-bottom:  1px solid green!important;
   box-shadow: 0 1px 0 0 #000;
 }
+
+/* label underline focus color */
+.input-field input[type="email"]:focus {
+  border-bottom: 1px solid green !important;
+  box-shadow: 0 1px 0 0 green;
+}
+/* valid color */
+.input-field input[type="email"].valid {
+  border-bottom:  3px solid green!important;
+  box-shadow: 0 1px 0 0 #000;
+}
+
+/* label underline focus color */
+.input-field input[type="email"]:focus {
+  border-bottom: 1px solid green !important;
+  box-shadow: 0 1px 0 0 green;
+}
+/* valid color */
+.input-field input[type="email"].valid {
+  border-bottom:  3px solid green!important;
+  box-shadow: 0 1px 0 0 #000;
+}
+
+
+
 /* invalid color */
 .input-field input[type="text"].invalid {
   border-bottom: 2px solid red !important;
   box-shadow: 0 1px 0 0 #000;
+}
+
+
+
+
+.active{
+  color: green !important;
+
+
+}
+
+#Textarea-12 .active{
+
+  border-bottom: 1px solid green!important;
+}
+
+
+input[type=range]+.thumb {
+ 
+  background-color: green !important;
+
+}
+
+
+input[type=range]::-webkit-slider-thumb {
+
+  background: green !important;
+
 }
 
 /* About Page */
