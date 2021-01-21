@@ -98,7 +98,3 @@ input[type="range"]::-webkit-slider-thumb {
 /* Inventory Page */
 
 /* Inventory Page */
-#Fixed {
-  position: absolute;
-  z-index: 1;
-}

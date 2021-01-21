@@ -14,9 +14,27 @@ const home = () => {
 
           </Homevid>
 
-<MyNavBar ident="blanco" ></MyNavBar>
+<MyNavBar  ></MyNavBar>
 <Background>
-    
+
+    <Container className="center">
+
+
+
+ 
+
+    <h3>
+
+  
+    <Typical className="white-text"   steps={['Welcome to Kenko Farms!', 9000, 'Dont know what microgreens are?', 5000, 'Keep reading, that might help ;)', 5000]}
+        loop={Infinity}
+        wrapper="p">
+
+
+    </Typical>
+    </h3>
+
+    </Container>
 </Background>
       
 <Background >
