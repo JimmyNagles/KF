@@ -1,10 +1,13 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-materialize'
 import ContactForm from '../Components/Form/ContactForm'
+import MyNavBar from '../Components/Nav/MyNavBar'
 
 const Contact = () => {
     return (
-        <div >
+        <div  >
+<MyNavBar></MyNavBar>
+
 
 <Container>
 

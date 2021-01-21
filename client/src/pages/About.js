@@ -1,12 +1,19 @@
 import React from 'react'
 import { Card, Col, Container, Row } from 'react-materialize'
+import MyNavBar from '../Components/Nav/MyNavBar'
 
 const About = () => {
     return (
-        <div className="box" >
-          <Container>
+        <div style={{height:"100vh"}}>
+       <MyNavBar></MyNavBar>
 
-       
+
+       <Container  style={{height:"200px"}}>
+
+
+</Container>
+
+          <Container>
         
 <Row>
 

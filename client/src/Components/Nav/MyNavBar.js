@@ -1,17 +1,19 @@
 import React from 'react'
 import {Navbar,Icon,NavItem } from "react-materialize"
 import  logo  from "./Img/logo.jpeg"
-const MyNavBar = () => {
+const MyNavBar = ({ident}) => {
     return (
 <div>
 
 
-<Navbar 
-
-
-className="glass"
+<Navbar
+id={ident}
+className="glass "
   alignLinks="right"
-  brand={<a href="/"><img style={{marginTop:"30px"}} width="100px"  height="100px" src={logo} ></img></a>}
+  brand={<div className="center" style={{top:"5px"}} >
+
+<a href="/"><img className="logo" src={logo} ></img></a>
+  </div>}
   centerLogo
   id="mobile-nav"
   menuIcon={<Icon className="black-text">menu</Icon>}

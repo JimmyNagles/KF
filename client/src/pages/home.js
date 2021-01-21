@@ -4,13 +4,20 @@ import Typical from "react-typical";
 import MyHomeCard from '../Components/Cards/HomeCard/MyHomeCard';
 import Background from '../Components/Grid/Background';
 import {Row,Col,Container }from 'react-materialize';
+import MyNavBar from '../Components/Nav/MyNavBar';
 const home = () => {
     return (
         <div>
+
+           
    <Homevid>   
 
           </Homevid>
 
+<MyNavBar ident="blanco" ></MyNavBar>
+<Background>
+    
+</Background>
       
 <Background >
 <Container>

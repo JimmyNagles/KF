@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import { Col, Container, Row } from 'react-materialize'
 import InvCard from '../Components/Cards/Inventory/InvCard'
+import MyNavBar from '../Components/Nav/MyNavBar'
 import one from "../Img/cilantro.jpg"
 import two from "../Img/parsley.jpg"
 import three from "../Img/peas.jpg"
@@ -22,6 +23,8 @@ const images = [one,two,three,four,five,six]
 
     return (
         <div>
+
+<MyNavBar></MyNavBar>
          <Container  style={{height:"200px"}}>
 
 

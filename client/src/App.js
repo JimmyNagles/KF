@@ -5,13 +5,14 @@ import Home from "./pages/home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Inventory from './pages/Inventory';
+import Homevid from './Components/Grid/Homevid';
 
 
 function App() {
   return (
     <Router>
     <div>
-      <NavBar />
+  
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/About" component={About} />

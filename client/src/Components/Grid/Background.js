@@ -7,7 +7,7 @@ const Background = ({children}) => {
 
 
     return (
-        <div className="box glass">
+        <div className="box glass white-text ">
 
 
                {children}
